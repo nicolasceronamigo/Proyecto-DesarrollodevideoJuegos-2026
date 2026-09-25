@@ -34,6 +34,8 @@ public class OptionsManager : MonoBehaviour
 
         PlayerPrefs.SetFloat("Volume", volume);
         PlayerPrefs.Save();
+
+        Debug.Log("Volumen guardado: " + volume);
     }
 
     public void SetFullscreen(bool fullscreen)
